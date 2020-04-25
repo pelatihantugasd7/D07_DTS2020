@@ -3,6 +3,7 @@
 { margin: 0;
   padding: 0;
   font-family: Montserrat, sans-serif;
+	box-sizing: border-box;
 }
 
 /* Tulis css class header dibawah ini */
@@ -20,7 +21,7 @@
 /* Tulis css class cta dibawah ini */
 
 /* Tulis css class footer dibawah ini */
-footer {
+.footer {
 	background-color: #2f5167;
 	color: #fff;
 	text-align: center;
