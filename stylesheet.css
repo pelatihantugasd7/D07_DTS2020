@@ -21,4 +21,16 @@
 /* Tulis css class cta dibawah ini */
 
 /* Tulis css class footer dibawah ini */
+.footer {
+	background-color: #2f5167;
+	color: #fff;
+	text-align: center;
+	border-radius: 10px;
+	height: 60px;
+	padding: 40px;
+	line-height: 80px;
+	font-weight: bold;
+	font-size: 50px;
+
+}
 
