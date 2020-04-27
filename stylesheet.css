@@ -3,34 +3,308 @@
 { margin: 0;
   padding: 0;
   font-family: Montserrat, sans-serif;
-	box-sizing: border-box;
 }
 
-/* Tulis css class header dibawah ini */
+body {
+  margin: 0;
+  /*font-family: "Lucida Grande";*/
+  font-family:sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes animasi{
+  from {opacity:0; color: red;}
+  to {opacity: 0.9; color: white;}
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 130px 0 90px 0;
+  background-image: url(https://i.ibb.co/ZHNn3Lr/12121.png);
+  background-size: cover;
+  color: white;
+  text-align: right;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-family: "Nirmala UI";
+  font-size: 55px;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px 6px #000000;
+  margin-top: 5px;
+}
+
+.top-wrapper h2{
+  font-size: 35px;
+  color:white;
+  opacity: 0.7;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 10px darkblue;
+}
+
+.top-wrapper h3{
+  font-size: :30px;
+  color: white;
+  opacity: 0.9;
+  margin: 5px;
+  font-weight: bold;
+  animation-name: animasi;
+  animation-duration: 7s;
+}
 
 
-/* Tulis css class heading dibawah ini */
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: right;
+  margin: 70px 0;
+}
+
+/*.btn-wrapper p {
+  margin: 10px 0;
+}*/
+
+.sign-up {
+  background-color: #26998E;
+  margin-right: 20px;
+}
+
+.login-aja {
+  background-color: #3E6BF2;
+  margin-right: 100px;
+}
+
+.btn {
+  padding: 13px 30px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 8px;
+  text-align: center;
+  font-family: "Nirmala UI";
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(0, 128, 255, 0.5);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 128px;
+  color: white;
+  margin-top: 0px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+.value-wrapper {
+  padding-bottom: 200px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  /*background-color: #f7f7f7;*/
+}
+
+.heading1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: bold;
+  font-family: "Trebuchet MS";
+}
+
+.value {
+  float: left;
+  width: 25%;
+}
+
+.value-icon {
+  position: relative;
+}
+
+.value-icon p {
+  position: relative;
+  top: 10px;
+  width: 100%;
+  color: black;
+  font-family: "Trebuchet MS";
+  font-weight: bold;
+
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-family: "Nirmala UI";
+  margin-bottom: -10px;
+  color:  #3C85FF;
+  margin-top: 50px;
+}
 
 
-/* Tulis css class our-portofolio dibawah ini */
 
+.lesson {
+  float: left;
+  width: 30%;
+  margin: auto;
+}
 
-/* Tulis css class our-team dibawah ini */
+.nuve{
+  margin-top: 40px;
+  text-align: center;
+}
 
+.lesson-icon {
+  position: relative;
+}
 
-/* Tulis css class cta dibawah ini */
+.lesson-icon p {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  font-family: "Nirmala UI";
+  font-weight: bolder;
+  color: #3C85FF;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.inputdong{
+  background-color: #3C85FF;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 4px;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 50px;
+  text-align: center;
+  background-image: url(https://i.ibb.co/vhGxP8g/aw.png);
+  background-size: cover;
+}
+
+.dts h1{
+  padding-top: 100px;
+  text-align: right;
+  font-size: 40px;
+  font-family: "Nirmala UI";
+  color: #fff;
+  font-weight: bolder;
+}
+
+.dts p{
+  margin-top: -20px;
+  text-align: right;
+  font-size: 16px;
+  color: #fff;
+}
+
 
 /* Tulis css class footer dibawah ini */
-.footer {
-	background-color: #2f5167;
-	color: #fff;
-	text-align: center;
-	border-radius: 10px;
-	height: 60px;
-	padding: 40px;
-	line-height: 80px;
-	font-weight: bold;
-	font-size: 20px;
-
+footer img {
+  margin-top: 10px;
+  width: 125px;
 }
 
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  background-color: #3C85FF;
+}
