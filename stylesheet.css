@@ -276,14 +276,14 @@ header {
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
   text-align: center;
   background-image: url(https://i.ibb.co/vhGxP8g/aw.png);
   background-size: cover;
 }
 
 .dts h1{
-  padding-top: 60px;
+  padding-top: 100px;
   text-align: right;
   font-size: 40px;
   font-family: "Nirmala UI";
@@ -292,7 +292,7 @@ header {
 }
 
 .dts p{
-  margin-top: -20px;
+  margin-top: 0px;
   text-align: right;
   font-size: 16px;
   color: #fff;
