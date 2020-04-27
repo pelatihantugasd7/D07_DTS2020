@@ -20,6 +20,14 @@
   .top-wrapper h3{
     font-size: 20px;
   }
+ 
+ .sign-up {
+  margin-right: 0;
+}
+
+.login-aja {
+  margin-right: 0;
+}
 
   .heading h2 {
     font-size: 20px;
