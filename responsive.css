@@ -1,65 +1,112 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-/*Tulis code untuk header*/
+ .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
 
+  .top-wrapper{
+    padding: 100px 0 80px 0;
+  }
 
+  .top-wrapper h1 {
+    font-size: 35px;
+  }
 
-/*Tulis code untuk heading*/
+  .top-wrapper h2{
+    font-size: 27px;
+  }
 
+  .top-wrapper h3{
+    font-size: 20px;
+  }
 
+  .heading h2 {
+    font-size: 20px;
+  }
 
+  .nuve{
+    margin-top: 0px;
+  }
 
-
-/*Tulis code untuk Our Portofolio*/
-
-
-
-
-
-/*Tulis code untuk Our Team*/
-
-
-
-
-/*Tulis code untuk cta*/
-
-
-/*Tulis code untuk Footer*/
-
-
-
-
+  .value {
+    width: 50%;
+    margin-bottom: 50px;
+  }
 }
+
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-/*Tulis code untuk header*/
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
 
+  .value {
+  width: 100%;
+}
 
+  footer {
+    text-align: center;
+  }
 
-/*Tulis code untuk heading*/
+  .nuve{
+    margin-top: 0px;
+  }
 
+  .btn {
+    width: 100%;
+  }
 
+  .sign-up {
+    margin-bottom: 20px;
+  }
 
+  .top-wrapper {
+    text-align: left;
+    padding: 65px 0 40px 0;
+  }
 
+  /* Tambahkan CSS untuk header-right */
+  .header-right{
+    display: none;
+  }
 
-/*Tulis code untuk Our Portofolio*/
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon{
+    display: block;
+  }
 
+  .top-wrapper h1 {
+    font-size: 28px;
+  }
 
+  .top-wrapper h2{
+    font-size: 20px;
+  }
 
+  .top-wrapper h3{
+    font-size: 15px;
+  }
 
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
 
-/*Tulis code untuk Our Team*/
+  .dts h1{
+  padding-top: 10px;
+  text-align: right;
+  font-size: 24px;
+  font-family: "Nirmala UI";
+  color: #fff;
+  font-weight: bolder;
+}
 
-
-
-
-/*Tulis code untuk cta*/
-
-
-
-
-/*Tulis code untuk Footer*/
-
-
-
+.dts p{
+  margin-top: -20px;
+  text-align: right;
+  font-size: 12px;
+  color: #fff;
+}
 }
